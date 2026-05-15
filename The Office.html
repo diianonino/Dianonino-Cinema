@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Reseña - The Office</title>
+<style>
+    body {
+        background: linear-gradient(135deg, #f0f0f0 0%, #ccc 50%, #87ceeb 100%);
+        background-attachment: fixed;
+        margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: 'Comic Sans MS', cursive;
+    }
+    .contenedor-dual {
+        background: rgba(255, 255, 255, 0.9);
+        display: flex; flex-direction: row; align-items: center; padding: 40px; border-radius: 20px; border: 4px solid #fff; box-shadow: 0 0 30px rgba(0,0,0,0.1); max-width: 1000px; width: 95%;
+    }
+    .parte-texto { flex: 1.2; padding-right: 30px; text-align: center; }
+    .parte-foto { flex: 0.8; display: flex; justify-content: center; }
+    .parte-foto img { max-width: 100%; height: auto; border-radius: 10px; border: 4px solid #fff; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+    h1 { color: #333; font-size: 2.8em; } 
+    .estrellas { font-size: 2em; color: #87ceeb; margin-bottom: 20px; }
+    .comentario { color: #444; font-size: 1.1em; background: #fff; padding: 25px; border-radius: 10px; border: 2px dashed #f0f0f0; text-align: justify; }
+    .btn-volver { display: inline-block; margin-top: 25px; background: #333; color: white; text-decoration: none; padding: 12px 30px; border-radius: 10px; font-weight: bold; }
+</style>
+</head>
+<body>
+    <div class="contenedor-dual">
+        <div class="parte-texto">
+            <h1>The Office</h1>
+            <div class="estrellas">★★★★★</div>
+            <div class="comentario">
+               La sitcom mas graciosa y recordable que exite. Es confortable, chistosa y con una hermosa historia de amor. Cada persona que la ve, no vuelve a ver las series de comedia igual. LA AMOO! Yo soy Michael Scott.
+            </div>
+            <a href="index.html" class="btn-volver">Volver al menú</a>
+        </div>
+        <div class="parte-foto">
+            <img src="the office.jpg" alt="Poster The Office">
+        </div>
+    </div>
+</body>
+</html>

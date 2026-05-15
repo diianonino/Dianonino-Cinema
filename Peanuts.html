@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Reseña - Snoopy & Charlie Brown</title>
+<style>
+    body {
+        /* Degradado azul cielo y amarillo suave */
+        background: linear-gradient(135deg, #a2d2ff 0%, #ffffff 50%, #fefae0 100%);
+        background-attachment: fixed;
+        margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: 'Comic Sans MS', cursive;
+    }
+    .contenedor-dual {
+        background: rgba(255, 255, 255, 0.92);
+        display: flex; flex-direction: row; align-items: center; padding: 40px; border-radius: 40px; border: 4px solid #fff; box-shadow: 0 0 30px rgba(162, 210, 255, 0.4); max-width: 1000px; width: 95%;
+    }
+    .parte-texto { flex: 1.2; padding-right: 30px; text-align: center; }
+    .parte-foto { flex: 0.8; display: flex; justify-content: center; }
+    .parte-foto img { 
+        max-width: 100%; height: auto; border-radius: 20px; 
+        border: 4px solid #f9bc00; /* Borde amarillo como Charlie Brown */
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+    }
+    h1 { color: #333; font-size: 2.8em; margin-bottom: 5px; }
+    .estrellas { font-size: 2em; color: #f9bc00; margin-bottom: 20px; }
+    
+    .comentario { 
+        color: #444; font-size: 1.1em; line-height: 1.6; background: #fff; 
+        padding: 25px; border-radius: 30px; border: 2px dashed #a2d2ff; text-align: justify; 
+    }
+    .btn-volver { 
+        display: inline-block; margin-top: 25px; background: #f9bc00; color: white; 
+        text-decoration: none; padding: 12px 30px; border-radius: 25px; font-weight: bold; transition: 0.3s;
+    }
+    .btn-volver:hover { background: #333; transform: scale(1.1); }
+</style>
+</head>
+<body>
+
+    <div class="contenedor-dual">
+        <div class="parte-texto">
+            <h1>Snoopy & Charlie Brown</h1>
+            <div class="estrellas">★★★★★</div>
+            
+            <div class="comentario">
+                Snoopy y Charlie Brown: La Película de Peanuts es pura nostalgia y ternura. La película captura perfectamente la esencia de la tira cómica original. Ver a Charlie Brown intentar conquistar a la niña de pelo naranja es bien lindo, ademas de ver a snoopy ser tan vago como siempre ha sido, da mucha risa.
+            </div>
+
+            <a href="index.html" class="btn-volver">Volver al menú</a>
+        </div>
+
+        <div class="parte-foto">
+            <img src="snupi.jpg" alt="Poster Snoopy">
+        </div>
+    </div>
+
+</body>
+</html>
